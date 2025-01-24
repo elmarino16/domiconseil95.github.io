@@ -4,17 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accueil - DOMI'CONSEIL95</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>DOMI'CONSEIL95 - Domiciliation & Création d'entreprise</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/script.js" defer></script>
 </head>
 <body>
     <header>
-        <img src="logo.jpg" alt="DOMI'CONSEIL95">
+        <img src="assets/images/logo.jpg" alt="DOMI'CONSEIL95">
         <h1>DOMI'CONSEIL95</h1>
         <p>Conseil et Domiciliation d'entreprise</p>
+        <button class="burger-menu" onclick="toggleMenu()">☰</button>
     </header>
 
-    <nav>
+    <nav id="main-nav">
         <a href="index.html">Accueil</a>
         <a href="services.html">Services</a>
         <a href="contact.html">Contact</a>
@@ -22,23 +24,26 @@
     </nav>
 
     <div class="hero">
-        <h2>Faites grandir votre entreprise avec nous</h2>
-        <p>DOMI'CONSEIL95 vous offre une gamme complète de services pour simplifier la création, la domiciliation et le développement de votre entreprise.</p>
+        <h2>Votre partenaire pour la réussite</h2>
+        <p>DOMI'CONSEIL95 vous accompagne dans toutes les étapes de la création et de la gestion de votre entreprise. Nous vous offrons une adresse prestigieuse pour votre siège social ainsi que des conseils d'experts pour assurer votre succès.</p>
     </div>
 
     <section class="section">
-        <h3>Nos Services</h3>
-        <div class="service-item">
-            <h4>Domiciliation d'entreprise</h4>
-            <p>Profitez d'une adresse stratégique au 6 rue Descartes, 95330 Domont, pour donner une image professionnelle à votre activité.</p>
-        </div>
-        <div class="service-item">
-            <h4>Création d'entreprise</h4>
-            <p>Notre équipe vous accompagne dans toutes les démarches administratives et juridiques pour concrétiser votre projet.</p>
-        </div>
-        <div class="service-item">
-            <h4>Conseil en gestion</h4>
-            <p>Optimisez vos processus avec l'aide de nos experts pour booster la performance et la durabilité de votre entreprise.</p>
+        <h3>Pourquoi choisir la domiciliation ?</h3>
+        <p>La domiciliation d'entreprise est une solution idéale pour les entrepreneurs souhaitant bénéficier d'une adresse professionnelle et stratégique sans supporter les coûts élevés d'un local commercial. Chez DOMI'CONSEIL95, nous vous proposons une adresse clé pour votre siège social au 6 rue Descartes, 95330 Domont.</p>
+        <div class="advantages">
+            <div>
+                <h4>Image Professionnelle</h4>
+                <p>Améliorez la crédibilité de votre entreprise avec une adresse prestigieuse.</p>
+            </div>
+            <div>
+                <h4>Flexibilité</h4>
+                <p>Bénéficiez de services adaptés à vos besoins, sans contraintes.</p>
+            </div>
+            <div>
+                <h4>Accompagnement</h4>
+                <p>Profitez de notre expertise pour toutes vos démarches administratives.</p>
+            </div>
         </div>
     </section>
 
